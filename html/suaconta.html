@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SUPPLY AI - Sua Conta</title>
+  <link rel="icon" type="image/png" href="../img/log.png">
+  <link rel="stylesheet" href="../css/suaconta.css" />
+</head>
+<body>
+
+  <button class="voltar" onclick="window.location.href='home.html'">← Início</button>
+
+  <div class="container">
+    <h1>Minha Conta</h1>
+    <p><strong>Nome:</strong> <span id="nome"></span></p>
+    <p><strong>Email:</strong> <span id="email"></span></p>
+
+    <a class="link-redefinir" href="#" id="redefinir-senha">Redefinir Senha</a>
+
+    <button class="btn" id="btn-sair">Sair da Conta</button>
+  </div>
+
+  
+  <div id="modal-senha" class="modal">
+    <div class="modal-content">
+      <h2>Redefinir Senha</h2>
+      <input type="password" id="nova-senha" placeholder="Digite a nova senha" />
+      <button id="confirmar-senha" class="btn">Confirmar</button>
+      <button id="cancelar-senha" class="btn cancelar">Cancelar</button>
+    </div>
+  </div>
+
+ 
+  <div id="modal-sair" class="modal">
+    <div class="modal-content">
+      <h2>Tem certeza que deseja sair da conta?</h2>
+      <button id="confirmar-sair" class="btn">Sim, sair</button>
+      <button id="cancelar-sair" class="btn cancelar">Cancelar</button>
+    </div>
+  </div>
+
+  <div id="notificacao"></div>
+
+  <script src="../js/suaconta.js"></script>
+</body>
+</html>

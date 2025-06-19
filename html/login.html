@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SUPPLY AI - Login</title>
+  <link rel="icon" type="image/png" href="../img/log.png">
+  <link rel="stylesheet" href="../css/login.css" />
+</head>
+<body>
+  <img src="../img/log.png" alt="Logo SUPPLY AI" class="logo" />
+
+  <div class="login-container">
+    <h1>SUPPLY AI</h1>
+    <form id="login-form" novalidate>
+      <input id="email" name="email" type="email" placeholder="Email" required autocomplete="username" />
+      <input id="senha" name="senha" type="password" placeholder="Senha" required autocomplete="current-password" />
+
+      <p id="mensagem-erro" role="alert" aria-live="assertive">Email ou senha incorretos!</p>
+      <p id="mensagem-sucesso" role="alert" aria-live="assertive">Login bem-sucedido! Salvando seus dados com segurança...</p>
+
+      <a class="link-login" href="cadastro.html">Não tem uma conta? Cadastre-se</a>
+      <button class="btn-login" type="submit">Entrar</button>
+    </form>
+  </div>
+
+  <script src="../js/login.js"></script>
+</body>
+</html>

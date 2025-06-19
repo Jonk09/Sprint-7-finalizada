@@ -1,0 +1,1 @@
+// Arquivo JS vazio, pronto para scripts futuros

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SUPPLY AI - Estoque em Tempo Real</title>
+  <link rel="icon" type="image/png" href="../img/log.png">
+  <link rel="stylesheet" href="../css/estoque.css" />
+</head>
+<body>
+  <header>
+    <img src="../img/log.png" alt="Logo SUPPLY AI" class="logo">
+    <h1>SUPPLY AI</h1>
+    <p>Monitoramento de Estoque em Tempo Real</p>
+  </header>
+
+  <nav>
+    <a href="home.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+    <a href="suaconta.html">Sua conta</a>
+  </nav>
+
+  <div class="container">
+    <section class="section">
+      <h2>📦 Níveis de Estoque</h2>
+      <p>Visualize rapidamente os níveis atuais de insumos e evite que a produção pare por falta de matéria-prima.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Matéria-prima</th>
+            <th>Quantidade Atual (kg)</th>
+            <th>Nível</th>
+          </tr>
+        </thead>
+        <tbody id="stock-table-body">
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>📡 Atualização Inteligente</h2>
+      <p>Os dados são coletados em tempo real via sensores IoT conectados à nossa plataforma, garantindo precisão nas decisões de reabastecimento.</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 supplyai. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="../js/estoque.js"></script>
+</body>
+</html>
